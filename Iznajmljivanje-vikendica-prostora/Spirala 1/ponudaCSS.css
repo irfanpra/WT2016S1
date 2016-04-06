@@ -1,0 +1,87 @@
+.sve
+{
+	width:28%;
+	float:left;
+}
+
+#cetvrti
+{
+	width:16%;
+	float:left;
+}
+
+.divBB
+{
+	width: 95%;
+	height: 200px;
+	background-color: #ff8000;
+	border-style: solid;
+	border-color: #ff8000;
+	border-radius: 5px;
+	float: left;
+	margin: 5px;
+}
+.divBB:hover
+{
+		box-shadow: 0 0 10px 8px #e1d5d5;
+		background-color: #ff9900;
+		border-color: #ff9900;
+}
+
+.divDD
+{
+	width: 95%;
+	height: 200px;
+	background-color: #cc3300;
+	border-style: solid;
+	border-color: #cc3300;
+	border-radius: 5px;
+	float: left;
+	margin: 5px;
+}
+.divDDa
+{
+	width: 45%;
+	height: 200px;
+	background-color: #cc3300;
+	border-style: solid;
+	border-color: #cc3300;
+	border-radius: 5px;
+	float: left;
+	margin: 5px;
+}
+.divDD:hover, .divDDa:hover
+{
+		box-shadow: 0 0 10px 8px #e1d5d5;
+		background-color: #ff4000;
+		border-color: #ff4000;
+}
+
+.divEE
+{
+	width: 95%;
+	height: 200px;
+	background-color:#e6b800;
+	border-style: solid;
+	border-color: #e6b800;
+	border-radius: 5px;
+	float: left;
+	margin: 5px;
+}
+.divEEa
+{
+	width: 45%;
+	height: 200px;
+	background-color:#e6b800;
+	border-style: solid;
+	border-color: #e6b800;
+	border-radius: 5px;
+	float: left;
+	margin: 5px;
+}
+.divEE:hover, .divEEa:hover
+{
+		box-shadow: 0 0 10px 8px #e1d5d5;
+		background-color: #ffcc00;
+		border-color: #ffcc00;
+}
