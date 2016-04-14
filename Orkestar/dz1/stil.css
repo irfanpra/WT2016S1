@@ -1,0 +1,282 @@
+body {	background-color: #2F4F4F;
+		font-family: verdana;
+		
+	
+		}
+.wrap {
+	height: 58px;
+	width: 56px;
+	background: #B22222;
+	position: absolute;
+	overflow: visible;
+	border-radius: 30%;
+	left: 47px;
+	visibility: visible;
+	z-index: 5;
+	top: 23px;
+}
+.logoWrap {
+	height: 25px;
+	position: relative;
+	top: -13px;
+	left: -544px;
+	width: 91px;
+	transform: rotate(60deg);
+	background: #00FFFF;
+	transition: ease-in-out;
+	font-family: "MS Serif", "New York", serif;
+	color: #600;
+	font-style: italic;
+}
+.logoWrap:before {
+  content: "";
+  position:inherit;
+  height: 150px;
+  width: 132px;
+  background: #DC143C;
+  top: 15%;
+  left: 20%;
+  border-radius: 40%;
+  transition:ease-in 0.8s;
+  
+}
+.logoWrap:after {
+  content: "";
+  position: relative;
+  height: 25px;
+  width: 158px;
+  background:#FF8C00;
+  border-bottom: 25px solid black;
+  top: 15%;
+  right: -30px;
+}
+	
+.logoTabela
+{width:66; 
+height:64; 
+border:1px solid dashed;
+ cellpadding:3;
+  cellspacing:1;
+}
+.col1
+{
+background-color:#99FF33;
+}
+.col2
+{
+background-color:#FFFF33;
+}
+.row1
+{
+background-color:#99FF33;
+}
+.row_a
+{
+background-color:#FFFF33;
+}
+.row2
+{
+background-color:#99FF33;
+}				
+.row2_a
+{
+background-color:#FFFF33;
+}
+.row2_1
+{
+background-color:#FF3300;
+}
+#okvir { 	background-color: #FFE4C4;
+			border: 2px solid #8B0000;
+			max-width:1500px;	}
+
+#zaglavlje {		mmin-height:2000px; text-align: center;		}
+
+#zaglavlje p	{	
+				font-family: Tahoma;
+				font-size: 30px;
+				font-style:inherit;
+				font-weight: bold;
+				color: #483D8B;
+				}
+			
+
+#meni_traka {		
+padding-top:inherit;
+ padding-bottom: 32px;
+ border-bottom-color:1px #9C6;	}
+
+#meni_traka ul {	
+display:inline;
+background-color:transparent;
+list-style: none; }
+			
+#meni_traka li {	
+display: inline;
+  list-style-type: none;
+  padding-right: 10px;
+  
+  padding-bottom:10px;	}
+
+
+
+p.dno {	
+background-color:#C03;	
+text-align:center;		
+}
+
+
+.lijeva_strana {	
+	margin-right:558px;
+	padding-bottom:40px;
+	padding-top:25px;
+    background-color: #b6722f;
+}
+#lijeva strana p.clanak
+{
+	margin-right:568px;
+	padding-bottom:20px;
+	padding-top:25px;
+	
+}
+#lijeva strana p.clanak img{
+	alignment-adjust:auto;
+	width:367 ;height:196;
+}
+#desna_strana {
+	height: 764px;
+	vertical-align: right-side;
+	padding-right: 10px0px5px;
+	padding-top: 1cm;
+	padding-right: 70px;
+	padding-bottom: 1cm;
+	margin-left: 658px;
+	position: absolute;
+	left: -25px;
+	top: 278px;
+	width: 353px;
+		}
+
+		
+.lijeva_strana h3.top {		
+					color: #FFD700;
+					font-family:Verdana, Geneva, sans-serif;
+					font-size:18px;
+					font-style:inherit;
+					
+				}
+			
+.lijeva_strana  h5 {
+	background-color: #ADFF2F;		
+				color: 	#DC143C;
+				font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+				font-style:oblique;
+				padding-top: 1cm;
+				padding-bottom: 5px;
+				padding-left: 0.5cm;
+				
+				}
+			
+.lijeva_strana p {		
+                background-color:#FF7F50;
+				border:3px solid black;
+				margin:auto; 
+				padding-top: 4px;
+				padding-left: 5px;
+				padding-bottom: 12px;
+				}
+
+			
+.lijeva_strana p a {		
+				color: #7FFF00;
+				text-decoration:italic;
+				}
+			
+.lijeva_strana p a:hover {	color:#A52A2A;
+					text-decoration:underline;
+					
+			}
+
+#desna_strana h3 {		
+				color: #8B0000;
+				padding-top: 12px;
+				padding-left: 6px;
+				padding-bottom: 10px;
+				
+				
+				}
+
+#desna_strana p {		
+				background-color: #FFFFFE;
+				border:1px dotted #006400 ;
+				margin: auto; 
+				padding-top: 15px;
+				padding-left: 5px;
+				padding-bottom: 14px;
+				}
+			
+#desna_strana p.opsirnije {	
+						margin:auto;	
+						border-bottom-left-radius:30px;
+						border-bottom-right-radius:35px;
+						border-bottom: 6px;
+						padding-top: 10px;
+						}
+						
+
+			
+#podnozje {		
+
+				text-align:center;
+				border-bottom:thin #C30;
+				
+				}
+
+				
+				
+				
+				
+/* prijatelji */
+
+.kontakt  {	background-color:#E9967A;
+			padding-top: 15px;
+			margin:auto;
+			list-style: square url("sqpurple.gif");
+			}
+ul{list-style: square url("sqpurple.gif");}
+	
+
+a {		color: #006400;
+		font-style: underline;
+		}
+		a:visited {	color: green;
+			
+			}
+
+a:hover {	color: #006400;
+		font-style: italic;
+			}
+					
+
+						
+						
+						
+/* forma */
+
+.dugmad {	list-style-type: none;
+			margin:auto;
+			alignment-adjust:auto;
+			}
+			
+.forma {		border:1px solid black; }
+
+.polja {	border:1px solid #0FC;	}
+
+/*tabela */
+.tabela 
+{
+	background-color:#39F;
+	border:1px solid black;
+}
+.neparan
+{ background-color:#0FC;}
